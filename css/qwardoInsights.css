@@ -1,0 +1,114 @@
+  .qwardosection-header
+	  {
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+	 padding: 10px !important;
+	  }
+  .qwardosection .form-table tr th
+{
+width: 115px;
+}
+.qwardosection
+{
+	 padding: 10px !important;
+}
+.qwardosection .form-table tr input[type='text']
+{
+position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    box-shadow: 0 0 0 #000 !important;
+    height: 35px;
+    padding: 6px 16px;
+    font-size: 14px;
+    line-height: 1.52857143;
+    color: #3a3f51;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #dde6e9;
+    border-radius: 4px;
+}
+
+.qwardosection .qwardo-signup
+{
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 2px solid #3E85F8 !important;
+    border-radius: 100px !important;
+    /* padding: 6px 20px !important; */
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 0.6px;
+    color: #3E85F8;
+}
+.qwardosection .qwardo-signup:HOVER
+{
+	 border: 2px solid #FF972A !important;
+	   color: #FF972A;
+}
+.qwardosection .submit
+{
+    text-align: center;
+}
+.qwardosection .submit #submit:HOVER 
+{
+    background: #FF972A; !important;
+    color: black !important;
+}
+.qwardosection .submit #submit, .qwardosection .submit #submit[disabled]
+{
+    border-radius: 100px;
+    background: #FF972A !important;
+    border: 2px solid #FF972A !important;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    box-shadow: none;
+    height: 40px;
+    width: 130px;
+    text-shadow: none;
+
+}
+.outer
+{
+	    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.middle
+{
+	display: table-cell;
+    vertical-align: middle;
+}
+.qwardosection .qwardo-siteid-info
+{
+	margin-left: 137px;
+text-align: left;font-size: 14px;
+}
+.qwardosection .qwardo-siteid-info.site-id-error
+{
+	color:red;
+}
+.qwardosection .qwardo-siteid-info.site-id-successfully-added
+{
+	color:green;
+}
+.qwardosection .site-id-not-valid,.qwardosection .site-id-null
+{
+	display:none;
+}
+#trackingidform input[disabled="disabled"]
+{
+	background-color: lightgrey !important;
+}
+#trackingidform .submit #submit[disabled]
+{
+    pointer-events: none;
+    opacity: 0.8;
+}
